@@ -1,12 +1,16 @@
 pipeline {
         agent any
         stages {
-          steps('Stage1') {
+          stage('Stage1') {
                 steps {sh 'touch jenkins.txt'}
 }
-          steps('Stage1') {
+                
+          stage('Stage2') {
                 steps {sh 'touch jenkins2.txt'}
           }
+                
+        stage('Stage3') {
+        steps {sh 'touch jenkins3.txt'}
         }
 }
       
