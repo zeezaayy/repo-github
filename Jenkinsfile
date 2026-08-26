@@ -12,4 +12,5 @@ pipeline {
         stage('Stage3') {
         steps {sh 'touch jenkins3.txt'}
         }
+        }
 }
