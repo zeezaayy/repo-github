@@ -13,4 +13,3 @@ pipeline {
         steps {sh 'touch jenkins3.txt'}
         }
 }
-      
